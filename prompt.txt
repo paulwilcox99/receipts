@@ -1,0 +1,5 @@
+Create an application for me to store copies of my business receipts.  They may be in text, image, pdf, web format.  Application will take them as input, store them in a directory called receipts.  Then using an LLM with vision capabilities like gpt-4o it will scan the receipt for information and create/add to a csv file a summary of the receipt information including vendor, address, phone, date and amount so that it can be looked up again in the future.  Also create a script that can be run to generate a web site using the csv file to display all receipts received with newest at the top and links to view the receipt.   
+
+Create the applications with python3 and web site should be standard HTML I can upload to vercel.
+
+First review the prompt, ask any clarifying questions, identify any issues, offer any suggested improvements and then create a plan for me to approve before implementing.
