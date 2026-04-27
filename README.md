@@ -11,7 +11,10 @@ Store and browse business receipts. Receipts are scanned by GPT-4o to extract ve
 ## Installation
 
 ```bash
-# Clone or download this repo, then:
+# Clone or download this repo, then create and activate a virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
 pip install -r requirements.txt
 
 # Copy the example env file and add your OpenAI key
@@ -31,6 +34,11 @@ sudo apt install poppler-utils
 # macOS
 brew install poppler
 ```
+
+> **Each session:** activate the venv before running any scripts:
+> ```bash
+> source .venv/bin/activate      # Windows: .venv\Scripts\activate
+> ```
 
 ## Adding Receipts
 
