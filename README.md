@@ -40,6 +40,14 @@ brew install poppler
 > source .venv/bin/activate      # Windows: .venv\Scripts\activate
 > ```
 
+## Verify Installation
+
+```bash
+python test_install.py
+```
+
+Checks that all packages are installed, your API key is set, and runs a quick end-to-end test (adds a synthetic receipt and generates the site in a temp directory).
+
 ## Adding Receipts
 
 ```bash
@@ -109,5 +117,6 @@ receipts.csv       # extracted metadata for all receipts
 site/              # generated website — deploy this folder
 add_receipt.py     # ingestion script
 generate_site.py   # site generator
+test_install.py    # installation verification script
 .env               # your OpenAI API key (not committed)
 ```
